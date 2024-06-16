@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio do Motel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: #222;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header img {
+            max-width: 150px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #555;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #000;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        .section {
+            margin: 40px 0;
+        }
+        .section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .gallery, .videos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .gallery img, .videos video {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .social {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .social a {
+            margin: 0 10px;
+            font-size: 20px;
+            color: #555;
+            text-decoration: none;
+        }
+        .social a:hover {
+            color: #000;
+        }
+        footer {
+            background: #f1f1f1;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo do Motel">
+        <h1>Portfólio do Motel</h1>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#fotos">Fotos</a>
+        <a href="#videos">Vídeos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="sobre" class="section">
+            <h2>Sobre Nós</h2>
+            <p>Bem-vindo ao nosso motel. Oferecemos a melhor experiência de hospedagem com conforto, privacidade e estilo. Conheça mais sobre nossos serviços e instalações.</p>
+        </section>
+        <section id="fotos" class="section">
+            <h2>Fotos</h2>
+            <div class="gallery">
+                <img src="foto1.jpg" alt="Foto 1">
+                <img src="foto2.jpg" alt="Foto 2">
+                <img src="foto3.jpg" alt="Foto 3">
+                <!-- Adicione mais imagens conforme necessário -->
+            </div>
+        </section>
+        <section id="videos" class="section">
+            <h2>Vídeos</h2>
+            <div class="videos">
+                <video controls>
+                    <source src="video1.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+                <video controls>
+                    <source src="video2.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+                <!-- Adicione mais vídeos conforme necessário -->
+            </div>
+        </section>
+        <section id="contato" class="section">
+            <h2>Contato</h2>
+            <div class="social">
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                <!-- Adicione mais links de mídia social conforme necessário -->
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Portfólio do Motel. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
